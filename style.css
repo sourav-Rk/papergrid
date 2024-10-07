@@ -1,0 +1,273 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    box-sizing: border-box;
+}
+.header{
+    height: 41px;
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(52, 50, 50);
+}
+.header a{
+    font-size: 13px;
+    font-weight: 400;
+    font-style:normal;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.Arrow-btn{
+    width: 16.41px;
+    height: 18.78px;
+}
+.header:hover {
+    background-color: rgb(28, 28, 28);
+
+}
+.Arrow-btn:hover {
+    width: 19.5px;
+}
+.navigation-cantainer{
+    position: sticky;
+    top: 0;
+    background-color: rgb(18, 18, 18);
+    height: 89px;
+    padding: 0px 80px;
+    border-bottom: 1px solid rgb(45, 43, 43);
+}
+.navigation{
+    display: grid;
+    grid-template-columns:128.245px 331.009px 706.755px;
+    justify-content: space-between;
+    height: 50px;
+    padding: 20px 20px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img{
+    width: 120px;
+    height: 25.92px;
+}
+.navigation-list{
+    display: flex;
+    flex-direction: row;
+    width: 331px;
+    color: white;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.navigation-list-item{
+    list-style: none;
+    padding: 13px 13px;
+    color: rgba(255, 255, 255, 0.75);
+}
+.navigation-list div:nth-child(1){
+    color: white;
+    text-decoration: underline;
+    text-decoration-color:white;
+}
+.navigation-list-item:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.icons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.icons div{
+    margin-left: 9px;
+}
+.icons div:nth-child(2)
+{
+    width: 50px;
+    height: 30px;
+}
+.icons-img{
+    width: 22px;
+    height: 22px;
+    padding: 2px 2px;
+    cursor: pointer;
+}
+.icons-img:hover{
+    width: 26px;
+    height: 26px;
+}
+.cart-img{
+    width: 41px;
+    height: 29px;
+    padding: 0px 2px;
+    cursor: pointer;
+}
+.cart-img:hover{
+    width: 45px;
+    height: 33px;
+}
+.notebook-container{
+    height: 1182px;
+    height: 1182px;
+    padding: 55px 126px;
+}
+.notebook-grid{
+    height: 1092px;
+    margin-left: -6px;
+    display: grid;
+    grid-template-columns: 351.287px 351.287px 351.287px;
+    column-gap: 43px;
+    row-gap: 14px;
+}
+.notebook{
+    display: flex;
+    align-items: end;
+}
+.notebook img{
+    width: 349.287px;
+    height: 362.305px;
+    cursor: pointer;
+}
+.about-container{
+   height: 530px;
+   padding: 41px 49px;
+}
+.profile-section img{
+    width: 393px;
+    height: 518px;
+}
+.about-section{
+    display: flex;
+    height: 517px;
+}
+.profile-text{
+    display: flex;
+    flex-direction: column;
+    width: 902.79px;
+    justify-content: center;
+    margin-bottom: 249px;
+    padding-left: 63px;
+}
+.profile-text-heading{
+    font-size: 24px;
+    color: rgb(18, 18, 18);
+    font-weight: 400;
+    align-self: flex-start;
+}
+.profile-text-para{
+    font-size: 19.8px;
+    font-weight: 400;
+    color: rgba(18, 18, 18, 0.7);
+}
+.about-us-btn{
+   width: 124px;
+   padding: 13px 16px;
+   background-color: black;
+   color: rgb(255, 255, 255);
+   font-size: 16.5px;
+   margin-top: 12px;
+   cursor: pointer;
+   border: none;
+}
+.about-us-btn:hover{
+     outline: 1px solid black;
+}
+.footer-container{
+    height:308px;
+    background-color: rgb(18, 18, 18);
+    margin-top: 29px;
+    border-bottom: 1px solid rgb(52, 50, 50);
+}
+.footer{
+    width: 1210px;
+    color: white;
+    padding: 3px 0px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 73px;
+ 
+}
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us-text{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+.contact-num,.email{
+    font-size: 17.6px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+.contact-num:hover{
+    color: white;
+}
+.email:hover{
+    color: white;
+}
+.insta-icon-section{
+   text-align: center;
+   margin-top: 10px;
+   cursor: pointer;
+}
+.insta-icon{
+    width: 20px;
+    height: 20px;
+    transition: width,height 0.8;
+}
+.insta-icon:hover{
+    width: 22px;
+    height:22px ;
+}
+.copyright-section{
+    height: 62px;
+    background-color: rgb(18, 18, 18);
+    padding-top: 53px;
+}
+.copyright-section p,li{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 12.1px;
+}
+.copy-right{
+    display: flex;
+    margin-left: 105px;
+}
+.copy-right-para p{
+    margin-top: 14px;
+    cursor: pointer;
+
+}
+.copy-right-para span:hover{
+    color: white;
+    text-decoration: underline;
+}
+.policies{
+    margin-left: -5px;
+    display: flex;
+    justify-content: flex-start;
+}
+.policies ul{
+    display: flex;
+}
+ul::marker{
+    font-size: 0.1em;
+    font-weight: 300;
+}
+ul li{
+    margin-right: 24px;
+    cursor: pointer;
+}
+ul li:hover{
+    color: white;
+    text-decoration: underline;
+}
